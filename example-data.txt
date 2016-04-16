@@ -1,0 +1,54 @@
+Ihssan Tinawi
+RS1
+Sample Data Recorded by the Software
+
+Demography Survey log: (the surveys used Google forms format)
+
+Name: Ihssan Tinawi
+ID: 01
+Gender: Male
+Writing Hand: Right
+Age Group: 18-20
+Mouse: Trackpad
+OS: Mac
+
+Control Survey log:
+
+ID: 01
+Satisfaction: 5
+Difficulty: 4
+Frustration: 4
+Efficiency: 5
+
+Ephemeral Survey log:
+
+ID: 01
+Satisfaction: 3
+Difficulty: 5
+Frustration: 7
+Efficiency: 3
+
+Final Survey log:
+ID: 01
+Satisfaction: Ephemeral
+Difficulty: Ephemeral
+Frustration: Ephemeral
+Efficiency: Control
+
+Content of console.log of the data to be used in the analysis:
+// Format of a data log
+// condition correctness target selected time target_predicted
+
+control true Microwave Microwave 2343 NA
+
+control true Chopin Chopin 2788 NA
+
+control true Loafer Loafer 2016 NA
+
+control true Laminate Laminate 4370 NA
+
+ephemeral true London London 2456 false
+
+ephemeral true Ballroom Ballroom 2464 true
+
+ephemeral true Portrait Portrait 1708 true

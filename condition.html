@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<!--
+  COLLABORATORS: Omar Obeya (in addition, example code I used was referenced using in-line comments).
+-->
+
+<html> 
+
+<head>
+<meta charset="UTF-8">
+<title id="title"></title>
+<link rel="stylesheet" href="mainLayout.css" />
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<h1 id="header"></h1>
+</head>
+
+<body>
+	<script type="text/javascript" src="condition.js"></script>
+	<p>
+		Welcome to Ihssan's RS1 experiment! You have completed <span id="completed">0</span> out of <span id="total">8</span> questions.
+		Please click on the following: <span id="selection">Menu X > xxxx</span>
+		<br>
+		<br>
+		<input class="disabled_button" id="start_testing" type="button" value="Start testing phase of experiment" disabled="disabled"/>
+		<input id="survey" type="button" value="Demographic Survey"/> <span id="to_remove">Please complete before beginning.</span>
+		<br>
+	</p>
+
+	<p>
+		<!-- Menu 1 -->
+	<div class="dropdown">
+	  <button id="menu1copy" class="btn btn-primary dropdown-toggle menu copy" type="button" data-toggle="dropdown">Menu 1<span class="caret"></span></button>
+	  <ul id="menu1dropdowncopy" class="dropdown-menu">
+	  </ul>
+	</div>
+
+	<!-- Menu 2 -->
+	<div class="dropdown">
+	  <button id="menu2copy" class="btn btn-primary dropdown-toggle menu copy" type="button" data-toggle="dropdown">Menu 2<span class="caret"></span></button>
+	  <ul id="menu2dropdowncopy" class="dropdown-menu">
+	  </ul>
+	</div>
+
+	<!-- Menu 3 -->
+	<div class="dropdown">
+	  <button id="menu3copy" class="btn btn-primary dropdown-toggle menu copy" type="button" data-toggle="dropdown">Menu 3<span class="caret"></span></button>
+	  <ul id="menu3dropdowncopy" class="dropdown-menu">
+	  </ul>
+	</div>
+	<input id="final_survey" class ="copy" type="button" value="Final Survey" disabled="disabled"/>
+	</p>
+
+	<!-- Menu 1 -->
+	<div class="dropdown">
+	  <button id="menu1" class="btn btn-primary dropdown-toggle menu" type="button" data-toggle="dropdown">Menu 1<span class="caret"></span></button>
+	  <ul id="menu1dropdown" class="dropdown-menu">
+	  </ul>
+	</div>
+
+	<!-- Menu 2 -->
+	<div class="dropdown">
+	  <button id="menu2" class="btn btn-primary dropdown-toggle menu" type="button" data-toggle="dropdown">Menu 2<span class="caret"></span></button>
+	  <ul id="menu2dropdown" class="dropdown-menu">
+	  </ul>
+	</div>
+
+	<!-- Menu 3 -->
+	<div class="dropdown">
+	  <button id="menu3" class="btn btn-primary dropdown-toggle menu" type="button" data-toggle="dropdown">Menu 3<span class="caret"></span></button>
+	  <ul id="menu3dropdown" class="dropdown-menu">
+	  </ul>
+	</div>
+
+	<input class="disabled_button" id="next" type="button" value="Next Mode" disabled="disabled"/>
+	<br>
+	<span id="final_message"></span>
+
+</body>
+
+</html>

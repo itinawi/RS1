@@ -1,0 +1,56 @@
+#selection {
+	margin-left: 20px;
+	font-weight: bold;
+	color: red;
+	font-size: 20px;
+}
+
+html {
+	margin-left: 20px;
+}
+
+.dropdown {
+	display: inline-block;
+	width: 250px;
+}
+
+.btn {
+	width: 200px;
+}
+
+.ul {
+	width: 200px;
+}
+
+.fadein {
+
+}
+
+.copy {
+	opacity: 0;
+}
+
+#survey {
+	margin-left: 30px;
+}
+
+#completed {
+	font-size: 20px;
+	color: blue;
+	font-weight: bold;
+	width: 20px;
+	margin-left: 5px;
+	margin-right: 5px;	
+}
+
+.disabled_button {
+	opacity: 0.3;
+}
+
+#total {
+	font-size: 20px;
+	color: green;
+	font-weight: bold;
+	margin-left: 5px;
+	margin-right: 5px;
+}
