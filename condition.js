@@ -133,8 +133,8 @@ $(document).ready(function() {
 	var current_menu;
 
 
-	var number_of_trials = 7;
-	var number_of_tasks = 124;
+	var number_of_trials = 0;
+	var number_of_tasks = 63;
 	var total_number_of_tasks = 126;
 	var testing_mode = false;
 
@@ -276,7 +276,7 @@ $(document).ready(function() {
 				if (second_round_of_testing) {
 					$("#final_survey").removeAttr('disabled');
 					$("#final_survey").removeClass('copy');
-					$("#final_message").html("Thanks for completing the experiment! Please click on the final survey and the next section buttons. Please don't close/refresh the browser.");
+					$("#final_message").html("Thanks for completing the experiment! Please click on the final survey and the next section buttons. Please don't close/refresh the browser until you have copy pasted the results logged on the console into <a href='https://docs.google.com/forms/d/1YCM0Gx3qjnRZwcxy0Oh--4iFugNLLAwKAD2Y6edylP8/viewform'>this survey</a>.");
 				}
 			}
 		}
@@ -328,8 +328,8 @@ $(document).ready(function() {
 			$("#completed").html(0);
 			$("#total").html(8);
 			testing_mode = false;
-			number_of_trials = 7;
-			number_of_tasks = 124;
+			number_of_trials = 0;
+			number_of_tasks = 63;
 			words_and_distributions = generateWordDistribution();
 			if (done_with_ephemeral) {
 				// enter control mode
