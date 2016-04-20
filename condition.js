@@ -276,7 +276,7 @@ $(document).ready(function() {
 				if (second_round_of_testing) {
 					$("#final_survey").removeAttr('disabled');
 					$("#final_survey").removeClass('copy');
-					$("#final_message").html("Thanks for completing the experiment! Please click on the final survey and the next section buttons. Please don't close/refresh the browser until you have copy pasted the results logged on the console into <a href='https://docs.google.com/forms/d/1YCM0Gx3qjnRZwcxy0Oh--4iFugNLLAwKAD2Y6edylP8/viewform'>this survey</a>.");
+					$("#final_message").html("Thanks for completing the experiment! Please click on the final survey and the next section buttons. Please don't close/refresh the browser until you have copy pasted the results logged on the console into <a href='https://docs.google.com/forms/d/1YCM0Gx3qjnRZwcxy0Oh--4iFugNLLAwKAD2Y6edylP8/viewform'>this survey</a> (OPEN THIS IN A NEW PAGE OR ELSE YOU WILL LOSE THE DATA).");
 				}
 			}
 		}
